@@ -64,6 +64,7 @@ function detail(overrides: Partial<ApplicationDetail> = {}): ApplicationDetail {
     ...application(),
     job_content: 'Job description',
     resume: null,
+    interview_questions: [],
     ...overrides,
   };
 }
